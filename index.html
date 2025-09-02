@@ -29,9 +29,9 @@
 
     <!-- Header -->
     <header class="bg-gray-800 shadow-lg">
-        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <img src="agents-brazil-branco.png" alt="Agents Brazil Logo" class="h-20">
-            <h2 class="text-3xl font-extrabold text-white">Tudo sobre o Programa Agents Brazil</h2>
+        <div class="container mx-auto px-6 py-4 flex flex-col md:flex-row justify-between items-center">
+            <img src="agents-brazil-branco.png" alt="Agents Brazil Logo" class="h-20 mb-4 md:mb-0">
+            <h2 class="text-2xl md:text-3xl font-extrabold text-white text-center md:text-left mb-4 md:mb-0">Tudo sobre o Programa Agents Brazil</h2>
             <a href="https://cadastro-startup.netlify.app/" target="_blank" rel="noopener noreferrer" class="bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition duration-300">Inscreva-se Agora</a>
         </div>
     </header>
@@ -45,10 +45,10 @@
 
         <!-- Seção de Imagens -->
         <section class="mb-16">
-            <div class="scroll-container flex overflow-x-auto space-x-8 p-4">
-                <div class="flex-shrink-0 w-full md:w-1/3 flex flex-col items-center">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="flex flex-col items-center">
                     <a href="https://agenciabrasil.ebc.com.br/economia/noticia/2025-06/startups-buscam-novas-oportunidades-e-tecnologias-na-campus-party" target="_blank" rel="noopener noreferrer" class="relative block">
-                        <img src="midia.jpg" alt="Mídia" class="rounded-lg shadow-lg object-cover h-96">
+                        <img src="midia.jpg" alt="Mídia" class="rounded-lg shadow-lg w-full">
                         <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4 text-center">
                             <p class="underline">
                                 <svg class="inline-block w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L8 9l11-4-6 10z"></path></svg>
@@ -58,17 +58,40 @@
                     </a>
                     <p class="text-gray-400 mt-4 text-center">Exposição das startups na mídia: uma oportunidade única de visibilidade.</p>
                 </div>
-                <div class="flex-shrink-0 w-full md:w-1/4 flex flex-col items-center">
-                    <img src="sandeco.jpg" alt="Sandeco" class="rounded-lg shadow-lg object-cover h-96">
+                <div class="flex flex-col items-center">
+                    <img src="sandeco.jpg" alt="Sandeco" class="rounded-lg shadow-lg w-full">
                     <p class="text-gray-400 mt-4 text-center">O Professor Sandeco com Thiago e João Pedro, talentosos participantes da Clivia, uma das startups de destaque do programa.</p>
                 </div>
-                <div class="flex-shrink-0 w-full md:w-1/4 flex flex-col items-center">
-                    <img src="davidson.jpg" alt="Davidson, fundador da Evo-AI" class="rounded-lg shadow-lg object-cover h-96">
-                    <p class="text-gray-400 mt-4 text-center">Davidson, fundador da Evo-AI, apresentando sua startup.</p>
+                <div class="flex flex-col items-center">
+                    <img src="davidson.jpg" alt="Davidson, fundador da Evo-AI" class="rounded-lg shadow-lg w-full">
+                    <p class="text-gray-400 mt-4 text-center">Davidson, fundador da Evo-AI, em plena ação, apresentando sua inovadora startup. O programa Agents Brazil é o palco perfeito para visionários como ele transformarem ideias em realidade.</p>
                 </div>
-                <div class="flex-shrink-0 w-full md:w-1/4 flex flex-col items-center">
-                    <img src="networking.jpg" alt="Networking e confraternização" class="rounded-lg shadow-lg object-cover h-96">
+                <div class="flex flex-col items-center">
+                    <img src="networking.jpg" alt="Networking e confraternização" class="rounded-lg shadow-lg w-full">
                     <p class="text-gray-400 mt-4 text-center">Networking e confraternização dos participantes junto ao professor Sandeco pós-evento.</p>
+                </div>
+                 <div class="flex flex-col items-center">
+                    <a href="https://agenciabrasil.ebc.com.br/economia/noticia/2025-06/startups-buscam-novas-oportunidades-e-tecnologias-na-campus-party" target="_blank" rel="noopener noreferrer" class="relative block">
+                        <img src="helton.jpeg" alt="Desenvolvedor Helton Braga participa do Campus Party" class="rounded-lg shadow-lg w-full">
+                        <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4 text-center">
+                            <p class="underline">
+                                <svg class="inline-block w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L8 9l11-4-6 10z"></path></svg>
+                                Clique aqui para ver mais
+                            </p>
+                        </div>
+                    </a>
+                    <p class="text-gray-400 mt-4 text-center text-sm">
+                        A startup TourData, do publicitário mineiro Helton Fraga, une inteligência artificial e turismo.<br>
+                        Foto: Antonio Trindade<br>
+                        Fonte: <a href="https://agenciabrasil.ebc.com.br/economia/noticia/2025-06/startups-buscam-novas-oportunidades-e-tecnologias-na-campus-party" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-300 font-semibold inline-flex items-center">
+                            Agência Brasil
+                            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                        </a>
+                    </p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="nexus.jpeg" alt="Evandro Inada apresenta seu projeto Nexus podcast" class="rounded-lg shadow-lg w-full">
+                    <p class="text-gray-400 mt-4 text-center">Evandro Inada, a mente por trás do Nexus Podcast, compartilhando seu projeto inovador. O Agents Brazil celebra a diversidade de ideias e o poder da comunicação.</p>
                 </div>
             </div>
         </section>
@@ -130,7 +153,7 @@
             },
             {
                 question: "Como devo me preparar para o evento?",
-                answer: "É fundamental preparar seu equipamento (notebook, carregadores, etc.), ter uma apresentação e um pitch bem ensaiados, e material de divulgação como cartões de visita. Fazer networking e coletar feedbacks durante o evento também são ações estratégicas importantes."
+                answer: "É fundamental preparar seu equipamento (notebook, carregadores, etc.), ter uma apresentação e um pitch bem ensaiados, e material de divulgação como cartões de visita e banners impressos (formatos como 120x90cm são comuns para eventos ou lojas). Fazer networking e coletar feedbacks durante o evento também são ações estratégicas importantes."
             }
         ];
 
