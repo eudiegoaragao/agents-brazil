@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agents Brazil</title>
+    <link rel="icon" href="agents-brazil-branco.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-in-out;
+        }
+        .scroll-container {
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+        .scroll-container::-webkit-scrollbar {
+            display: none; /* Chrome, Safari, and Opera */
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-200">
+
+    <!-- Header -->
+    <header class="bg-gray-800 shadow-lg">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <img src="agents-brazil-branco.png" alt="Agents Brazil Logo" class="h-20">
+            <h2 class="text-3xl font-extrabold text-white">Tudo sobre o Programa Agents Brazil</h2>
+            <a href="https://cadastro-startup.netlify.app/" target="_blank" rel="noopener noreferrer" class="bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition duration-300">Inscreva-se Agora</a>
+        </div>
+    </header>
+
+    <!-- Seção Principal -->
+    <main class="container mx-auto p-4 sm:p-6 lg:p-8">
+        <section class="text-center mb-16">
+            <p class="text-lg text-gray-400 max-w-3xl mx-auto mb-8">Sua chance de levar sua startup para o próximo nível. Responda às suas dúvidas e prepare-se para a Campus Party Recife 2025.</p>
+            <img src="agents-brazil-branco.png" alt="Agents Brazil Logo" class="h-32 mx-auto">
+        </section>
+
+        <!-- Seção de Imagens -->
+        <section class="mb-16">
+            <div class="scroll-container flex overflow-x-auto space-x-8 p-4">
+                <div class="flex-shrink-0 w-full md:w-1/3 flex flex-col items-center">
+                    <a href="https://agenciabrasil.ebc.com.br/economia/noticia/2025-06/startups-buscam-novas-oportunidades-e-tecnologias-na-campus-party" target="_blank" rel="noopener noreferrer" class="relative block">
+                        <img src="midia.jpg" alt="Mídia" class="rounded-lg shadow-lg object-cover h-96">
+                        <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4 text-center">
+                            <p class="underline">
+                                <svg class="inline-block w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L8 9l11-4-6 10z"></path></svg>
+                                Clique aqui para ver mais
+                            </p>
+                        </div>
+                    </a>
+                    <p class="text-gray-400 mt-4 text-center">Exposição das startups na mídia: uma oportunidade única de visibilidade.</p>
+                </div>
+                <div class="flex-shrink-0 w-full md:w-1/4 flex flex-col items-center">
+                    <img src="sandeco.jpg" alt="Sandeco" class="rounded-lg shadow-lg object-cover h-96">
+                    <p class="text-gray-400 mt-4 text-center">O Professor Sandeco com Thiago e João Pedro, talentosos participantes da Clivia, uma das startups de destaque do programa.</p>
+                </div>
+                <div class="flex-shrink-0 w-full md:w-1/4 flex flex-col items-center">
+                    <img src="davidson.jpg" alt="Davidson, fundador da Evo-AI" class="rounded-lg shadow-lg object-cover h-96">
+                    <p class="text-gray-400 mt-4 text-center">Davidson, fundador da Evo-AI, apresentando sua startup.</p>
+                </div>
+                <div class="flex-shrink-0 w-full md:w-1/4 flex flex-col items-center">
+                    <img src="networking.jpg" alt="Networking e confraternização" class="rounded-lg shadow-lg object-cover h-96">
+                    <p class="text-gray-400 mt-4 text-center">Networking e confraternização dos participantes junto ao professor Sandeco pós-evento.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção FAQ -->
+        <section class="max-w-4xl mx-auto">
+            <h3 class="text-3xl font-bold text-white text-center mb-10">Perguntas Frequentes</h3>
+            <div id="faq-container" class="space-y-4">
+                <!-- As perguntas serão inseridas aqui pelo JavaScript -->
+            </div>
+        </section>
+
+         <!-- Seção Detalhes do Evento -->
+        <section class="mt-20 text-center bg-gray-800 p-8 rounded-xl shadow-2xl">
+            <a href="https://brasil.campus-party.org/cpnordeste/" target="_blank" rel="noopener noreferrer" class="hover:underline">
+                <h3 class="text-3xl font-bold text-white mb-4">Campus Party Recife 2025</h3>
+            </a>
+            <p class="text-gray-300 text-lg">Uma oportunidade única para os participantes do Agents Brazil.</p>
+            <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-gray-700 p-6 rounded-lg">
+                    <h4 class="text-xl font-semibold text-white">Data</h4>
+                    <p class="text-blue-400 text-lg mt-2">24 a 28 de Setembro de 2025</p>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg">
+                    <h4 class="text-xl font-semibold text-white">Local</h4>
+                    <p class="text-blue-400 text-lg mt-2">Arena Pernambuco, São Lourenço da Mata | PE</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer com CTA -->
+    <footer class="mt-20 bg-gray-800">
+         <div class="container mx-auto px-6 py-10 text-center">
+            <h3 class="text-3xl font-bold text-white">Pronto para decolar sua startup?</h3>
+            <p class="text-gray-400 mt-2 mb-6">Não perca a chance de fazer parte da comunidade Agents Brazil e expor seu projeto em um dos maiores eventos de tecnologia do país.</p>
+            <a href="https://cadastro-startup.netlify.app/" target="_blank" rel="noopener noreferrer" class="bg-blue-600 text-white py-3 px-8 rounded-lg font-semibold text-lg hover:bg-blue-700 transition duration-300">Garantir minha vaga</a>
+        </div>
+    </footer>
+
+    <script>
+        const faqData = [
+            {
+                question: "Quem pode participar do programa Agents Brazil?",
+                answer: "A participação é exclusiva para alunos do Professor Sandeco que façam parte de suas mentorias, grupos de WhatsApp, ou da pós-graduação em Inteligência Artificial da UFG coordenada por ele."
+            },
+            {
+                question: "Qual é a principal oportunidade oferecida pelo programa?",
+                answer: "Os participantes selecionados terão um espaço exclusivo e gratuito para apresentar seus projetos e startups na Campus Party Recife 2025, um dos maiores eventos de tecnologia e inovação do Brasil."
+            },
+            {
+                question: "Quais são os requisitos do meu projeto para participar?",
+                answer: "O seu projeto (software, aplicativo, plataforma, etc.) precisa estar funcional. Não precisa ser uma versão final, mas deve ser possível demonstrar suas funcionalidades principais, mesmo que seja em um ambiente de teste local no seu notebook."
+            },
+            {
+                question: "Quais são os custos envolvidos para expor na Campus Party?",
+                answer: "O Professor Sandeco, através do programa, disponibiliza os ingressos (gratuitamente) que dão acesso ao evento para os participantes selecionados. No entanto, todos os outros custos, como transporte, hospedagem e alimentação, são de responsabilidade de cada participante."
+            },
+            {
+                question: "Como devo me preparar para o evento?",
+                answer: "É fundamental preparar seu equipamento (notebook, carregadores, etc.), ter uma apresentação e um pitch bem ensaiados, e material de divulgação como cartões de visita. Fazer networking e coletar feedbacks durante o evento também são ações estratégicas importantes."
+            }
+        ];
+
+        const faqContainer = document.getElementById('faq-container');
+
+        faqData.forEach(item => {
+            const faqItem = document.createElement('div');
+            faqItem.className = 'border border-gray-700 rounded-lg bg-gray-800 overflow-hidden';
+
+            const button = document.createElement('button');
+            button.className = 'w-full flex justify-between items-center p-5 text-left font-semibold text-white focus:outline-none';
+            button.innerHTML = `
+                <span>${item.question}</span>
+                <svg class="w-6 h-6 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+            `;
+
+            const content = document.createElement('div');
+            content.className = 'accordion-content';
+            const innerContent = document.createElement('div');
+            innerContent.className = 'px-5 pb-5';
+            const answerParagraph = document.createElement('p');
+            answerParagraph.className = 'text-gray-300';
+            answerParagraph.textContent = item.answer;
+            innerContent.appendChild(answerParagraph);
+            content.appendChild(innerContent);
+
+            button.addEventListener('click', () => {
+                const icon = button.querySelector('svg');
+                // Fecha todos os outros acordeões
+                document.querySelectorAll('.accordion-content').forEach(el => {
+                    if (el !== content) {
+                        el.style.maxHeight = null;
+                        el.previousElementSibling.querySelector('svg').classList.remove('rotate-180');
+                    }
+                });
+                
+                // Abre ou fecha o atual
+                icon.classList.toggle('rotate-180');
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+
+            faqItem.appendChild(button);
+            faqItem.appendChild(content);
+            faqContainer.appendChild(faqItem);
+        });
+    </script>
+
+</body>
+</html>
